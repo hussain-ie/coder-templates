@@ -25,7 +25,7 @@ resource "coder_app" "novnc" {
   agent_id      = coder_agent.main.id
   display_name = "novnc"
   slug          = "novnc"
-  icon          = "https://ppswi.us/noVNC/app/images/icons/novnc-192x192.png"
+  icon          = "https://raw.githubusercontent.com/novnc/noVNC/refs/heads/master/app/images/icons/novnc-ios-40.png"
   url           = "http://localhost:6081"
   subdomain    = false
   share        = "owner"
